@@ -11,7 +11,7 @@ export const useFetchGifs = (category) => {
     console.log(category)
     useEffect(()=>{
        
-        getGifs(category).then(img => {
+        getGifs(category, 50).then(img => {
             console.log(img)
             if (img.length > 0) {
                 setState({

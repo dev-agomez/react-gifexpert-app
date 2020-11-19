@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <GifGridItem/> Debe de mostrar el componente correctamete 1`] = `
+<div
+  className="card animate__animated animate__lightSpeedInLeft"
+>
+  <a
+    href="https://localhost:8080/img.jpg"
+    target="_blank"
+  >
+    <img
+      alt="Un título"
+      src="https://localhost:8080/img.jpg"
+    />
+  </a>
+  <p>
+    1.- Un título
+  </p>
+</div>
+`;
